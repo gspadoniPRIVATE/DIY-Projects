@@ -10,6 +10,7 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 void setup() {
      lcd.init();                      // initialize the lcd 
      lcd.init();
+     lcd.clear();
      // Print a message to the LCD.
      lcd.backlight();
      lcd.setCursor(1,0);
@@ -23,6 +24,6 @@ void loop() {
   // print out the value you read:
       lcd.setCursor(3,1);
       lcd.print(sensorValue);
-  delay(1);        // delay in between reads for stability
+  delay(1000);        // delay in between reads for stability
 }
 /////////////////////////////////////////////////////////////////////////////////////

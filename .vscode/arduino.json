@@ -2,5 +2,5 @@
     "board": "arduino:avr:uno",
     "port": "COM5",
     "programmer": "AVRISP mkII",
-    "sketch": "Single Sensors\\I2C1602\\I2C1602.ino"
+    "sketch": "Single Sensors\\TempMonitor\\TempMonitor.ino"
 }
